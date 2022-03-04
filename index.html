@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Finder</title>
+
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- Link js -->
+    <script src="./Search/Search.js"></script>
+    <script src="./API/index.js"></script>
+    <script src="./UserProfile/UserProfile.js"></script>
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/523d67677c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="header-container">
+        <div class="header-icon">
+            <img src="./icon/2048px-Octicons-mark-github.svg.png" class="header-icon__img">
+            <p class="header-icon__title">Github Finder</p>
+        </div>
+    </div>
+
+    <div class="body-container">
+        <div class="slide-show">
+            <div class="search-user">
+                <div class="search-user__item">
+                    <input type="text" class="search-user__input" placeholder="Search for users ..." onchange="onChangeKeySearch()">
+                    <button class="search-user__button">Search</button>
+                    <div class="dropdown-listuser__container"></div>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <div class="user-profile-container">
+        
+    </div>
+
+    
+</body>
+</html>
